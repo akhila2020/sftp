@@ -4,6 +4,9 @@ Protocol 2
 HostKey /etc/ssh/ssh_host_ed25519_key
 HostKey /etc/ssh/ssh_host_rsa_key
 
+#Ciphers
+Ciphers aes256-cbc,aes256-ctr
+
 # Faster connection
 # See: https://github.com/atmoz/sftp/issues/11
 UseDNS no
